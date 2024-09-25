@@ -9,7 +9,7 @@ import org.springframework.web.client.RestTemplate;
 
 @Service
 public class ValidatingService {
-    private static final String USERMANAGE = "http://localhost:8080/auth/validate";
+    private static final String USERMANAGE = "http://auth:8080/auth/validate";
 
     @Autowired
     private RestTemplate restTemplate;
